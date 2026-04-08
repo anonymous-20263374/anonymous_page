@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Token Attention Norm Distribution</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #f5f5f5;
+      text-align: center;
+    }
+
+    nav {
+      background: #1e1e1e;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd54f;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 16px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="norm-distribution.html">Norm Distribution</a>
+    <a href="baseline-qual.html">Other Baselines</a>
+    <a href="other-qual.html">Multi-Subject & Style</a>
+  </nav>
+
+  <main class="container">
+    <h1>Token Attention Norm Distribution</h1>
+    <section>
+      <!-- <h2>Flux</h2> -->
+      <img src="images/flux_norms.jpg" alt="Flux attention norm distribution" />
+    </section>
+    <section>
+      <!-- <h2>SD3 ()</h2> -->
+      <img src="images/sd3_norms.jpg" alt="SD3 attention norm distribution for text encoder 1" />
+    </section>
+    <section>
+      <!-- <h2>SD3 (Text Encoder 2)</h2> -->
+      <img src="images/sd3_norms_2.jpg" alt="SD3 attention norm distribution for text encoder 2" />
+    </section>
+  </main>
+</body>
+</html>
